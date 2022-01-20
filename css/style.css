@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bou {
+    display: grid;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.container-xl {
+    display: grid;
+    grid-gap: 20px;
+    text-align: center;
+    padding: 5%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.carousel {
+    display: grid;
+    text-align: center;
+    padding: 1%;
+}
+
+.sobre {
+    display: grid;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#nav {
+    margin: 0%;
+}
+
+.drinkBtn {
+    display: grid;
+    text-align: center;
+    padding: 5%;
+}
+
+.drinkFoto {
+    width: 85%;
+}
+
+footer {
+    padding: 0.2%;
+    margin: 0%;
+}
+
+#bouBtn {
+    padding: 1%;
+}
+
+#dryBtn {
+    padding: 1%;
+}
+
+#manBtn {
+    padding: 1%;
+}
+
+#oldBtn {
+    padding: 1%;
+}
