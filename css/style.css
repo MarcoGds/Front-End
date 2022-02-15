@@ -1,20 +1,42 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .bou {
     display: grid;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .container-xl {
-    display: grid;
+    display: flex;
     grid-gap: 20px;
     text-align: center;
     padding: 5%;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.central {
+    display: flex;
+}
+
+.laterais {
+    height: 100px;
 }
 
 .carousel {
@@ -26,7 +48,7 @@ body {
 .sobre {
     display: grid;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 4%;
 }
 
 #nav {
@@ -44,7 +66,8 @@ body {
 }
 
 footer {
-    padding: 0.2%;
+    position: relative;
+    padding: 0.1%;
     margin: 0%;
 }
 
@@ -62,4 +85,28 @@ footer {
 
 #oldBtn {
     padding: 1%;
+}
+
+@media screen and (max-width: 576px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    [class*="col-"] {
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 960px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    [class*="col-"] {
+        width: 33.33%;
+    }
 }
