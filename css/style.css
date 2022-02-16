@@ -87,7 +87,7 @@ footer {
     padding: 1%;
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     [class*="col-"] {
         width: 100%;
     }
@@ -109,4 +109,4 @@ footer {
     [class*="col-"] {
         width: 33.33%;
     }
-}
+} */
