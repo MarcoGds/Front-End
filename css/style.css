@@ -1,4 +1,4 @@
-.col-1 {width: 8.33%;}
+/* .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
@@ -9,7 +9,7 @@
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-12 {width: 100%;} */
 
 body {
     margin: 0;
@@ -62,7 +62,7 @@ body {
 }
 
 .drinkFoto {
-    width: 70%;
+    width: 60%;
 }
 
 footer {
@@ -91,9 +91,8 @@ footer {
     h1 {
         padding-top: 20%;
     }
-    .central {
-        padding-top: 10%;
-        padding-bottom: 10%;
+    .bou {
+        padding-top: 20%;
     }
 }
 
@@ -101,25 +100,17 @@ footer {
     h1 {
         padding-top: 9%;
     }
-    .central {
-        margin: 0%;
-    }
-    .container-xl {
-        display: contents;
-        text-align: left;
-    }
     .bou {
-        padding-top: 8%;
+        padding-top: 9%;
     }
-
 }
 
 @media screen and (max-width: 960px) {
     h1 {
         padding-top: 16%;
     }
-    .central {
-        margin: 0%;
+    .bou {
+        padding-top: 16%;
     }
 }
 
@@ -127,13 +118,7 @@ footer {
     h1 {
         padding-top: 14%;
     }
-    .central {
-        margin: 0%;
-    }
-    .container-xl {
-        height: 100%;
-    }
     .bou {
-        padding-top: 17%;
+        padding-top: 16%;
     }
 }
